@@ -4,9 +4,10 @@ import android.graphics.Color;
 import android.view.View;
 import android.widget.ImageView;
 import com.githang.statusbar.StatusBarCompat;
-import app.my.drivingtest.MainActivity;
+import app.my.drivingtest.app.main.MainActivity;
 import app.my.drivingtest.R;
 import app.my.drivingtest.app.base.BaseActivity;
+import app.my.drivingtest.app.main.TextActivity;
 import app.my.mylibrary.utils.ScaleUtils;
 import butterknife.BindView;
 

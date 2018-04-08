@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+
+    android:orientation="vertical">
+    <ImageView
+        android:layout_marginTop="50px"
+        android:scaleType="centerCrop"
+        android:id="@+id/iv_media_icon"
+        android:minHeight="200px"
+        android:minWidth="250px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_menu"
+        />
+    <TextView
+        android:id="@+id/tv_media_describe"
+        android:paddingTop="20px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="培训视频"
+        android:maxLength="5"
+        android:textSize="14sp"
+        android:textColor="#666"
+        />
+</LinearLayout>

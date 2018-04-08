@@ -34,4 +34,10 @@ public class ScaleUtils {
         set.setDuration(800);
         set.start();
     }
+    //旋转
+    public static void getRotationAnimator(View view){
+        ObjectAnimator animator = ObjectAnimator.ofFloat(view,"rotation",0,720);
+        animator.setDuration(1000);
+        animator.start();
+    }
 }

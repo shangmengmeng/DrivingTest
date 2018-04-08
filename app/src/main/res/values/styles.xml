@@ -9,5 +9,8 @@
         <!--<item name="windowNoTitle">true</item>-->
         <!--<item name="android:windowFullscreen">true</item>-->
     </style>
-
+    <style name="my_menu_dialog_style">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
 </resources>

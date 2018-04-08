@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sl_banner_detail"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="app.my.drivingtest.app.main_banner.BannerDetailActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/titlebar_all"/>
+        <ImageView
+            android:id="@+id/iv_banner_detail"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/icon_banner_2"
+            />
+        <TextView
+            android:lineSpacingMultiplier="1.5"
+            android:text="        不久前召开的联合国世界车辆协调论坛第174次会议上，由中国、美国、欧盟和日本共同牵头制定的电动汽车安全全球技术法规获全票通过。法规主要围绕整车及动力蓄电池的安全性能提出技术要求，同时规定了电动汽车满足安全性能要求的试验方法，以保障电动汽车在各种使用环境下，以及发生碰撞等事故时能最大限度保护乘员安全。这是全球汽车技术法规体系中首个专门针对电动汽车安全技术的法规。这也意味着，电动汽车在技术研制和发展上，将严格依法“强制”安全。“电动汽车安全问题，不仅仅是被民众关注的热点那么‘简单’，它也是发展电动汽车产业必须解决的关键问题。”4月1日，中国中车集团株洲电力机车研究所的首席技术专家、中国电动汽车百人会成员郭淑英接受科技日报专访时说。她表示，电动汽车作为汽车的一员，除了要具备汽车应具备的“一般安全”性能外，还要解决电池、充电基础设施、整车制造等环节上的“特殊”安全问题。"
+            android:padding="50px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.SwipeRefreshLayout>

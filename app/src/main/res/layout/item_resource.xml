@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@drawable/recycler_bg"
+    android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:layout_marginTop="2px"
+    android:layout_height="300px">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_pdf"
+        />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:gravity="center_vertical"
+            android:id="@+id/tv_resource_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:text="我是标题文档的通知"
+            />
+        <TextView
+            android:gravity="center_vertical"
+            android:padding="20px"
+            android:id="@+id/tv_resource_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:textColor="#777"
+            android:text="2017.12.23"
+            />
+    </LinearLayout>
+
+</LinearLayout>

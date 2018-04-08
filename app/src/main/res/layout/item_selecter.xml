@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_item"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:minHeight="200px"
+    android:gravity="center_vertical"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/iv_choose"
+        android:scaleType="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/choose_selector_2"
+        />
+    <TextView
+        android:layout_marginLeft="30px"
+        android:gravity="center_vertical"
+        android:id="@+id/tv_selectOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</com.zhy.autolayout.AutoLinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_title"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="#fff">
+
+    <ImageView
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:id="@+id/title_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_back_1"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/title_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="驾考宝典"
+        android:textColor="#222222"
+        android:textSize="18sp" />
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/title_page"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:text=""
+        android:textColor="#222222"
+        android:textSize="18sp"
+        android:gravity="center_vertical"
+        android:layout_marginRight="40px"
+        />
+    <ImageView
+        android:id="@+id/title_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/icon_me"
+        android:layout_marginRight="40px"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#bcb7b7"/>
+</RelativeLayout>

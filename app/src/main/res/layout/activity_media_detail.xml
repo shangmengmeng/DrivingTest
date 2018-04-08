@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="app.my.drivingtest.app.main_media.MediaDetailActivity">
+
+    <include layout="@layout/titlebar_all" />
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+
+        android:id="@+id/smart_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <cn.jzvd.JZVideoPlayerStandard
+                android:id="@+id/vd_media"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+            </cn.jzvd.JZVideoPlayerStandard>
+            <RelativeLayout
+                android:layout_margin="50px"
+                android:layout_width="match_parent"
+                android:layout_height="150px">
+                <TextView
+                    android:id="@+id/tv_media_title"
+                    android:gravity="center"
+                    android:textColor="#555"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="马克思注意冒着冬思想"
+                    android:maxLength="12"
+                    />
+                <TextView
+                    android:id="@+id/iv_media_time"
+                    android:layout_marginLeft="50px"
+                    android:gravity="center_vertical"
+                    android:layout_toRightOf="@+id/tv_media_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="12sp"
+                    android:text="2018.8.12"
+                    />
+                <ImageView
+                    android:id="@+id/iv_media_download"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/icon_down"
+
+                    />
+            </RelativeLayout>
+
+            <app.my.progresslibrary.myviews.DownloadView
+                android:id="@+id/dv_progress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="50px"
+                >
+
+            </app.my.progresslibrary.myviews.DownloadView>
+        </LinearLayout>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+</LinearLayout>

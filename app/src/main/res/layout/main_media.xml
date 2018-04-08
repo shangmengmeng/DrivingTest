@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:rolling="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+   <TextView
+       android:paddingLeft="50px"
+       android:paddingTop="50px"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="视频教程"
+       android:textSize="18sp"
+       android:textColor="#000"
+       android:textStyle="bold"
+
+       />
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingLeft="50px"
+          android:paddingTop="20px"
+          android:text="专注在线安全教育"
+          android:textColor="#666"
+          android:textSize="14sp"
+          />
+   <android.support.v7.widget.RecyclerView
+       android:layout_marginTop="50px"
+       android:id="@+id/rv_media"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+   </android.support.v7.widget.RecyclerView>
+   <ImageView
+       android:layout_marginTop="100px"
+       android:layout_gravity="center_horizontal"
+       android:layout_marginBottom="60px"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:src="@drawable/icon_main_bottom"
+       />
+</LinearLayout>
+
+</com.zhy.autolayout.AutoLinearLayout>

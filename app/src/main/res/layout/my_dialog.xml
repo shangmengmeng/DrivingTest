@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="1200px"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="150px"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"
+        android:background="@drawable/my_dialog"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:minHeight="150px"
+                   android:id="@+id/dialog_phone_name"
+                    android:textColor="#555"
+                    android:textSize="16sp"
+                    android:text="--请选择试卷类型--"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="50px"
+                    android:id="@+id/dialog_phone_position"
+                    android:textColor="#888"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="30px"
+                android:layout_width="match_parent"
+                android:layout_height="4px"
+                android:background="@color/color_stoke_1" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_phone_dialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="80px"
+                android:overScrollMode="never"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>
